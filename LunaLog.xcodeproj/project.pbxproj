@@ -7,18 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8878C5E72C4857A000D9796C /* Rewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8878C5E62C4857A000D9796C /* Rewards.swift */; };
+		8878C5E92C4857B100D9796C /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8878C5E82C4857B100D9796C /* Progress.swift */; };
 		887CADF42C45A5EA007750AE /* LunaLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887CADF32C45A5EA007750AE /* LunaLogApp.swift */; };
 		887CADF62C45A5EA007750AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887CADF52C45A5EA007750AE /* ContentView.swift */; };
 		887CADF82C45A5ED007750AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887CADF72C45A5ED007750AE /* Assets.xcassets */; };
 		887CADFB2C45A5ED007750AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887CADFA2C45A5ED007750AE /* Preview Assets.xcassets */; };
+		887CAE242C470DCB007750AE /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887CAE232C470DCB007750AE /* WelcomeScreen.swift */; };
+		887CAE4C2C4769F5007750AE /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887CAE4B2C4769F5007750AE /* AuthView.swift */; };
+		887CAE502C476FEB007750AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 887CAE4F2C476FEB007750AE /* GoogleService-Info.plist */; };
+		887CAE532C47710E007750AE /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 887CAE522C47710E007750AE /* FirebaseAnalytics */; };
+		887CAE552C47710E007750AE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 887CAE542C47710E007750AE /* FirebaseAuth */; };
+		887CAE572C477279007750AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887CAE562C477278007750AE /* AppDelegate.swift */; };
+		887CAE592C4774D8007750AE /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887CAE582C4774D8007750AE /* OnboardingFlow.swift */; };
+		887CAE5B2C4774FC007750AE /* MainDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887CAE5A2C4774FC007750AE /* MainDashboard.swift */; };
+		887CAE5D2C477D1F007750AE /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887CAE5C2C477D1F007750AE /* Settings.swift */; };
+		887CAE5F2C477D36007750AE /* WaterLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887CAE5E2C477D36007750AE /* WaterLog.swift */; };
+		887CAE612C477D44007750AE /* SleepLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887CAE602C477D44007750AE /* SleepLog.swift */; };
+		88F0FABF2C4838B8002F434E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 88F0FABE2C4838B8002F434E /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8878C5E62C4857A000D9796C /* Rewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rewards.swift; sourceTree = "<group>"; };
+		8878C5E82C4857B100D9796C /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
 		887CADF02C45A5EA007750AE /* LunaLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunaLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		887CADF32C45A5EA007750AE /* LunaLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunaLogApp.swift; sourceTree = "<group>"; };
 		887CADF52C45A5EA007750AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		887CADF72C45A5ED007750AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		887CADFA2C45A5ED007750AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		887CAE232C470DCB007750AE /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		887CAE4B2C4769F5007750AE /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		887CAE4F2C476FEB007750AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		887CAE562C477278007750AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		887CAE582C4774D8007750AE /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
+		887CAE5A2C4774FC007750AE /* MainDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboard.swift; sourceTree = "<group>"; };
+		887CAE5C2C477D1F007750AE /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		887CAE5E2C477D36007750AE /* WaterLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterLog.swift; sourceTree = "<group>"; };
+		887CAE602C477D44007750AE /* SleepLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepLog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +51,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887CAE532C47710E007750AE /* FirebaseAnalytics in Frameworks */,
+				887CAE552C47710E007750AE /* FirebaseAuth in Frameworks */,
+				88F0FABF2C4838B8002F434E /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +80,18 @@
 			isa = PBXGroup;
 			children = (
 				887CADF32C45A5EA007750AE /* LunaLogApp.swift */,
+				887CAE562C477278007750AE /* AppDelegate.swift */,
 				887CADF52C45A5EA007750AE /* ContentView.swift */,
+				887CAE232C470DCB007750AE /* WelcomeScreen.swift */,
+				887CAE4B2C4769F5007750AE /* AuthView.swift */,
+				887CAE582C4774D8007750AE /* OnboardingFlow.swift */,
+				887CAE5A2C4774FC007750AE /* MainDashboard.swift */,
+				887CAE602C477D44007750AE /* SleepLog.swift */,
+				887CAE5E2C477D36007750AE /* WaterLog.swift */,
+				887CAE5C2C477D1F007750AE /* Settings.swift */,
+				8878C5E62C4857A000D9796C /* Rewards.swift */,
+				8878C5E82C4857B100D9796C /* Progress.swift */,
+				887CAE4F2C476FEB007750AE /* GoogleService-Info.plist */,
 				887CADF72C45A5ED007750AE /* Assets.xcassets */,
 				887CADF92C45A5ED007750AE /* Preview Content */,
 			);
@@ -83,6 +122,11 @@
 			dependencies = (
 			);
 			name = LunaLog;
+			packageProductDependencies = (
+				887CAE522C47710E007750AE /* FirebaseAnalytics */,
+				887CAE542C47710E007750AE /* FirebaseAuth */,
+				88F0FABE2C4838B8002F434E /* FirebaseFirestore */,
+			);
 			productName = LunaLog;
 			productReference = 887CADF02C45A5EA007750AE /* LunaLog.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +155,9 @@
 				Base,
 			);
 			mainGroup = 887CADE72C45A5EA007750AE;
+			packageReferences = (
+				887CAE512C47710E007750AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 887CADF12C45A5EA007750AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +174,7 @@
 			files = (
 				887CADFB2C45A5ED007750AE /* Preview Assets.xcassets in Resources */,
 				887CADF82C45A5ED007750AE /* Assets.xcassets in Resources */,
+				887CAE502C476FEB007750AE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +185,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887CAE5B2C4774FC007750AE /* MainDashboard.swift in Sources */,
+				887CAE592C4774D8007750AE /* OnboardingFlow.swift in Sources */,
+				887CAE612C477D44007750AE /* SleepLog.swift in Sources */,
+				887CAE5D2C477D1F007750AE /* Settings.swift in Sources */,
+				887CAE242C470DCB007750AE /* WelcomeScreen.swift in Sources */,
 				887CADF62C45A5EA007750AE /* ContentView.swift in Sources */,
+				8878C5E92C4857B100D9796C /* Progress.swift in Sources */,
+				887CAE4C2C4769F5007750AE /* AuthView.swift in Sources */,
+				887CAE5F2C477D36007750AE /* WaterLog.swift in Sources */,
+				887CAE572C477279007750AE /* AppDelegate.swift in Sources */,
 				887CADF42C45A5EA007750AE /* LunaLogApp.swift in Sources */,
+				8878C5E72C4857A000D9796C /* Rewards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +402,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		887CAE512C47710E007750AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		887CAE522C47710E007750AE /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 887CAE512C47710E007750AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		887CAE542C47710E007750AE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 887CAE512C47710E007750AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		88F0FABE2C4838B8002F434E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 887CAE512C47710E007750AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 887CADE82C45A5EA007750AE /* Project object */;
 }
