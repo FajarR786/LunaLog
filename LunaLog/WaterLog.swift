@@ -6,6 +6,7 @@
 //
 
 // Need to change color and background
+
 import SwiftUI
 import UserNotifications
 
@@ -14,68 +15,81 @@ struct WaterLog: View {
     private let dailyGoal: Double = 3000 // Daily goal in ml
     
     var body: some View {
-        VStack {
-            Text("Water Tracker")
-                .font(.largeTitle)
-                .padding()
+        ZStack {
+            Color("Color4")
+                .opacity(0.6)
+                .edgesIgnoringSafeArea(.all) // Replace "BackgroundColor" with your desired color name
             
-            Text("\(Int(totalWater)) ml / \(Int(dailyGoal)) ml")
-                .font(.title)
-                .padding()
-            
-            ProgressView(value: totalWater, total: dailyGoal)
-                .progressViewStyle(LinearProgressViewStyle())
-                .padding()
-            
-            Text("Consumed: \(Int(totalWater / dailyGoal * 100))%")
-                .font(.title2)
-                .padding()
-            
-            HStack {
-                Button(action: {
-                    addWater(amount: 100)
-                }) {
-                    Text("Add 100ml")
-                        .padding()
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
-                }
-                
-                Button(action: {
-                    addWater(amount: 200)
-                }) {
-                    Text("Add 200ml")
-                        .padding()
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
-                }
-                
-                Button(action: {
-                    addWater(amount: 500)
-                }) {
-                    Text("Add 500ml")
-                        .padding()
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
-                }
-            }
-            .padding()
-            
-            Button(action: {
-                resetWater()
-            }) {
-                Text("Reset")
+            VStack {
+                Text("Water Tracker")
+                    .font(.largeTitle)
+                    .fontWeight(.semibold)
                     .padding()
-                    .background(Color.red)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
+                
+                Text("\(Int(totalWater)) ml / \(Int(dailyGoal)) ml")
+                    .font(.title)
+                    .padding()
+                
+                ProgressView(value: totalWater, total: dailyGoal)
+                    .progressViewStyle(LinearProgressViewStyle())
+                    .padding()
+                
+                Text("Consumed: \(Int(totalWater / dailyGoal * 100))%")
+                    .font(.title2)
+                    .fontWeight(.medium)
+                    .foregroundColor(Color("Color2"))
+                    .padding()
+                
+                HStack {
+                    Button(action: {
+                        addWater(amount: 100)
+                    }) {
+                        Text("Add 100ml")
+                            .fontWeight(.semibold)
+                            .padding()
+                            .background(Color("Color3"))
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                    }
+                    
+                    Button(action: {
+                        addWater(amount: 200)
+                    }) {
+                        Text("Add 200ml")
+                            .fontWeight(.semibold)
+                            .padding()
+                            .background(Color("Color3"))
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                    }
+                    
+                    Button(action: {
+                        addWater(amount: 500)
+                    }) {
+                        Text("Add 500ml")
+                            .fontWeight(.semibold)
+                            .padding()
+                            .background(Color("Color3"))
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                    }
+                }
+                .padding()
+                
+                Button(action: {
+                    resetWater()
+                }) {
+                    Text("Reset")
+                        .fontWeight(.semibold)
+                        .padding()
+                        .background(Color("Color4"))
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+                .padding()
+                
+                Spacer()
             }
-            .padding()
-            
-            Spacer()
         }
         .onAppear(perform: setupNotifications)
     }

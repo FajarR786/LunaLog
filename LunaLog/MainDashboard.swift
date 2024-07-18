@@ -127,10 +127,7 @@ struct MainDashboard: View {
             }
         }
     }
-    
-    struct MainDashboard_Previews: PreviewProvider {
-        static var previews: some View {
-            MainDashboard()
-        }
-    }
+}
+#Preview {
+    MainDashboard()
 }
