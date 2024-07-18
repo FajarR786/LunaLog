@@ -25,6 +25,9 @@
 		887CAE5F2C477D36007750AE /* WaterLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887CAE5E2C477D36007750AE /* WaterLog.swift */; };
 		887CAE612C477D44007750AE /* SleepLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887CAE602C477D44007750AE /* SleepLog.swift */; };
 		88F0FABF2C4838B8002F434E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 88F0FABE2C4838B8002F434E /* FirebaseFirestore */; };
+		9F584B1C2C48640200C60BA2 /* Early.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F584B1B2C48640200C60BA2 /* Early.swift */; };
+		9F584B1E2C48640F00C60BA2 /* Decent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F584B1D2C48640F00C60BA2 /* Decent.swift */; };
+		9F584B202C48641F00C60BA2 /* Late.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F584B1F2C48641F00C60BA2 /* Late.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,9 @@
 		887CAE5C2C477D1F007750AE /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		887CAE5E2C477D36007750AE /* WaterLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterLog.swift; sourceTree = "<group>"; };
 		887CAE602C477D44007750AE /* SleepLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepLog.swift; sourceTree = "<group>"; };
+		9F584B1B2C48640200C60BA2 /* Early.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Early.swift; sourceTree = "<group>"; };
+		9F584B1D2C48640F00C60BA2 /* Decent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decent.swift; sourceTree = "<group>"; };
+		9F584B1F2C48641F00C60BA2 /* Late.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Late.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,9 @@
 				887CAE582C4774D8007750AE /* OnboardingFlow.swift */,
 				887CAE5A2C4774FC007750AE /* MainDashboard.swift */,
 				887CAE602C477D44007750AE /* SleepLog.swift */,
+				9F584B1B2C48640200C60BA2 /* Early.swift */,
+				9F584B1D2C48640F00C60BA2 /* Decent.swift */,
+				9F584B1F2C48641F00C60BA2 /* Late.swift */,
 				887CAE5E2C477D36007750AE /* WaterLog.swift */,
 				887CAE5C2C477D1F007750AE /* Settings.swift */,
 				8878C5E62C4857A000D9796C /* Rewards.swift */,
@@ -189,9 +198,12 @@
 				887CAE592C4774D8007750AE /* OnboardingFlow.swift in Sources */,
 				887CAE612C477D44007750AE /* SleepLog.swift in Sources */,
 				887CAE5D2C477D1F007750AE /* Settings.swift in Sources */,
+				9F584B202C48641F00C60BA2 /* Late.swift in Sources */,
 				887CAE242C470DCB007750AE /* WelcomeScreen.swift in Sources */,
 				887CADF62C45A5EA007750AE /* ContentView.swift in Sources */,
+				9F584B1E2C48640F00C60BA2 /* Decent.swift in Sources */,
 				8878C5E92C4857B100D9796C /* Progress.swift in Sources */,
+				9F584B1C2C48640200C60BA2 /* Early.swift in Sources */,
 				887CAE4C2C4769F5007750AE /* AuthView.swift in Sources */,
 				887CAE5F2C477D36007750AE /* WaterLog.swift in Sources */,
 				887CAE572C477279007750AE /* AppDelegate.swift in Sources */,
