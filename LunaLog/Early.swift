@@ -13,6 +13,8 @@ struct Early: View {
         ZStack {
             Color("Color4")
                 .edgesIgnoringSafeArea(.all)
+                .opacity(0.95)
+            
             VStack {
                 Text("Early Sleeper")
                     .foregroundColor(.white)

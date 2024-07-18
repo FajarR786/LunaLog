@@ -15,7 +15,7 @@ struct LunaLogApp: App {
 
     var body: some Scene {
         WindowGroup {
-            AuthView()
+            ContentView()
         }
     }
 }

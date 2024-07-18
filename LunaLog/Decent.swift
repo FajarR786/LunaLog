@@ -9,10 +9,15 @@ import SwiftUI
 
 struct Decent: View {
     @State private var time = ""
+    
     var body: some View {
         NavigationStack {
-            HStack{
-                VStack{
+            ZStack {
+                Color("Color4")// Replace with your custom background color
+                    .opacity(0.7)
+                    .edgesIgnoringSafeArea(.all) // Ensure the background color covers the entire screen
+                
+                VStack {
                     Text("Decent Sleeper")
                         .font(.largeTitle)
                         .fontWeight(.heavy)
@@ -24,12 +29,12 @@ struct Decent: View {
                         .frame(height: 20.0)
                     Text("Challenges You Might Have Faced")
                         .fontWeight(.semibold)
-                    Text("Decent sleepers may struggle to find a good balance between sleeping and responsibility, may find it difficult to sleep due to occasional sleep distruptions, insomia or restless nights.")
+                    Text("Decent sleepers may struggle to find a good balance between sleeping and responsibility, may find it difficult to sleep due to occasional sleep disruptions, insomnia, or restless nights.")
                     Spacer()
                         .frame(height: 20.0)
                     Text("Possible Solutions")
                         .fontWeight(.semibold)
-                    Text("Some things decents sleepers should try is developing a good sleeping hygiene, try managing stress through meditation or journaling,and even doing a workout before bedtime.")
+                    Text("Some things decent sleepers should try is developing a good sleeping hygiene, try managing stress through meditation or journaling, and even doing a workout before bedtime.")
                     Spacer()
                         .frame(height: 20.0)
                     Text("Click on a Goal to receive a Suggestion")
@@ -56,12 +61,15 @@ struct Decent: View {
                     .tint(Color("Color2"))
                     Spacer()
                         .frame(height: 10.0)
-                    Text(time) .font(.headline)
+                    Text(time)
+                        .font(.headline)
                 }
                 .padding()
             }
         }
     }
 }
+
 #Preview {
-    Decent()}
+    Decent()
+}

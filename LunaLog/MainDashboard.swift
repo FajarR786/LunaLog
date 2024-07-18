@@ -123,7 +123,7 @@ struct MainDashboard: View {
                 }
             }
             .fullScreenCover(isPresented: $isUserLoggedOut) {
-                AuthView()
+                WelcomeScreen()
             }
         }
     }

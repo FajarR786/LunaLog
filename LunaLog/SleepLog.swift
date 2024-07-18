@@ -11,6 +11,8 @@ struct SleepLog: View {
     var body: some View {
         Text("Sleep Log Page")
             .font(.largeTitle)
+            .fontWeight(.semibold)
+            .foregroundColor(Color("Color1"))
             .padding()
         NavigationStack {
             ZStack {
@@ -27,7 +29,7 @@ struct SleepLog: View {
                     NavigationLink(destination: Early()) {
                         Text("You go to sleep around 9-10 PM and wake up around 5-6 AM")
                             .padding()
-                            .background(Color.blue)
+                            .background(Color("Color2"))
                             .foregroundColor(.white)
                             .cornerRadius(8)
                         Spacer()
@@ -35,7 +37,7 @@ struct SleepLog: View {
                     NavigationLink(destination: Decent()) {
                         Text("You go to sleep around 10 PM-12:00 AM      and wake up around 6-8 AM                 ")
                             .padding()
-                            .background(Color.blue)
+                            .background(Color("Color2"))
                             .foregroundColor(.white)
                             .cornerRadius(8)
                         Spacer()
@@ -43,7 +45,7 @@ struct SleepLog: View {
                     NavigationLink(destination: Late()) {
                         Text("You go to sleep around 12:00-3:00AM and wake up around 9-11 AM or later")
                             .padding()
-                            .background(Color.blue)
+                            .background(Color("Color2"))
                             .foregroundColor(.white)
                             .cornerRadius(8)
                     }
@@ -55,11 +57,10 @@ struct SleepLog: View {
         }
         
     }
-    
-    struct SleepLog_Previews: PreviewProvider {
-        static var previews: some View {
-            SleepLog()
-        }
-    }
-    
 }
+struct SleepLog_Previews: PreviewProvider {
+    static var previews: some View {
+        SleepLog()
+    }
+}
+
