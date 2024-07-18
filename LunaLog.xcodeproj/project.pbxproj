@@ -28,6 +28,7 @@
 		9F584B1C2C48640200C60BA2 /* Early.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F584B1B2C48640200C60BA2 /* Early.swift */; };
 		9F584B1E2C48640F00C60BA2 /* Decent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F584B1D2C48640F00C60BA2 /* Decent.swift */; };
 		9F584B202C48641F00C60BA2 /* Late.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F584B1F2C48641F00C60BA2 /* Late.swift */; };
+		BDE8D9182C498B2700BC7A23 /* point Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8D9172C498B2700BC7A23 /* point Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		9F584B1B2C48640200C60BA2 /* Early.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Early.swift; sourceTree = "<group>"; };
 		9F584B1D2C48640F00C60BA2 /* Decent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decent.swift; sourceTree = "<group>"; };
 		9F584B1F2C48641F00C60BA2 /* Late.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Late.swift; sourceTree = "<group>"; };
+		BDE8D9172C498B2700BC7A23 /* point Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "point Manager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				887CAE5E2C477D36007750AE /* WaterLog.swift */,
 				887CAE5C2C477D1F007750AE /* Settings.swift */,
 				8878C5E62C4857A000D9796C /* Rewards.swift */,
+				BDE8D9172C498B2700BC7A23 /* point Manager.swift */,
 				8878C5E82C4857B100D9796C /* Progress.swift */,
 				887CAE4F2C476FEB007750AE /* GoogleService-Info.plist */,
 				887CADF72C45A5ED007750AE /* Assets.xcassets */,
@@ -197,6 +200,7 @@
 				887CAE5B2C4774FC007750AE /* MainDashboard.swift in Sources */,
 				887CAE592C4774D8007750AE /* OnboardingFlow.swift in Sources */,
 				887CAE612C477D44007750AE /* SleepLog.swift in Sources */,
+				BDE8D9182C498B2700BC7A23 /* point Manager.swift in Sources */,
 				887CAE5D2C477D1F007750AE /* Settings.swift in Sources */,
 				9F584B202C48641F00C60BA2 /* Late.swift in Sources */,
 				887CAE242C470DCB007750AE /* WelcomeScreen.swift in Sources */,
