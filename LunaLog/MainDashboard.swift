@@ -73,7 +73,7 @@ struct MainDashboard: View {
                     }
                     .padding()
                     
-                    NavigationLink(destination: Settings()) {
+                    NavigationLink(destination: SettingsView()) {
                         Text("Settings")
                             .font(.headline) // Smaller font size
                             .foregroundColor(.white)
