@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8878C5E72C4857A000D9796C /* Rewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8878C5E62C4857A000D9796C /* Rewards.swift */; };
-		8878C5E92C4857B100D9796C /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8878C5E82C4857B100D9796C /* Progress.swift */; };
+		8878C5E92C4857B100D9796C /* CustomProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8878C5E82C4857B100D9796C /* CustomProgress.swift */; };
 		887CADF42C45A5EA007750AE /* LunaLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887CADF32C45A5EA007750AE /* LunaLogApp.swift */; };
 		887CADF62C45A5EA007750AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887CADF52C45A5EA007750AE /* ContentView.swift */; };
 		887CADF82C45A5ED007750AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887CADF72C45A5ED007750AE /* Assets.xcassets */; };
@@ -34,7 +34,7 @@
 
 /* Begin PBXFileReference section */
 		8878C5E62C4857A000D9796C /* Rewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rewards.swift; sourceTree = "<group>"; };
-		8878C5E82C4857B100D9796C /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		8878C5E82C4857B100D9796C /* CustomProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgress.swift; sourceTree = "<group>"; };
 		887CADF02C45A5EA007750AE /* LunaLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunaLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		887CADF32C45A5EA007750AE /* LunaLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunaLogApp.swift; sourceTree = "<group>"; };
 		887CADF52C45A5EA007750AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 				887CAE5E2C477D36007750AE /* WaterLog.swift */,
 				887CAE5C2C477D1F007750AE /* Settings.swift */,
 				8878C5E62C4857A000D9796C /* Rewards.swift */,
-				8878C5E82C4857B100D9796C /* Progress.swift */,
+				8878C5E82C4857B100D9796C /* CustomProgress.swift */,
 				9F584B972C49FD9C00C60BA2 /* ProgressRing.swift */,
 				9F584B9B2C49FE1E00C60BA2 /* SleepManager.swift */,
 				887CAE4F2C476FEB007750AE /* GoogleService-Info.plist */,
@@ -209,7 +209,7 @@
 				887CAE242C470DCB007750AE /* WelcomeScreen.swift in Sources */,
 				887CADF62C45A5EA007750AE /* ContentView.swift in Sources */,
 				9F584B1E2C48640F00C60BA2 /* Decent.swift in Sources */,
-				8878C5E92C4857B100D9796C /* Progress.swift in Sources */,
+				8878C5E92C4857B100D9796C /* CustomProgress.swift in Sources */,
 				9F584B1C2C48640200C60BA2 /* Early.swift in Sources */,
 				887CAE4C2C4769F5007750AE /* AuthView.swift in Sources */,
 				887CAE5F2C477D36007750AE /* WaterLog.swift in Sources */,

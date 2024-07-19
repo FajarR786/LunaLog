@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Combine
 
 enum SleepState {
     case notStarted
@@ -14,10 +15,10 @@ enum SleepState {
 }
 
 enum SleepPlan: String {
-    case early = "7:17"
-    case decent = "8:16"
-    case late = "9:15"
-    
+    case early = "Early"
+    case decent = "Decent"
+    case late = "Late"
+
     var sleepPeriod: Double {
         switch self {
         case .early:
@@ -42,30 +43,30 @@ class SleepManager: ObservableObject {
     @Published private(set) var elapsed: Bool = false
     @Published private(set) var elapsedTime: Double = 0.0
     @Published private(set) var progress: Double = 0.0
-    
+
     var sleepTime: Double {
         return sleepPlan.sleepPeriod * 60 * 60
     }
-    
+
     var awakeTime: Double {
         return (24 - sleepPlan.sleepPeriod) * 60 * 60
     }
-    
+
     init(sleepPlan: SleepPlan = .decent) {
         self.sleepPlan = sleepPlan
-        
+
         let calendar = Calendar.current
         let components = DateComponents(hour: 20)
         let scheduledTime = calendar.nextDate(after: Date(), matching: components, matchingPolicy: .nextTime) ?? Date()
         startTime = scheduledTime
-        
+
         endTime = scheduledTime.addingTimeInterval(sleepPlan.sleepPeriod * 60 * 60)
     }
-    
+
     func updateEndTime() {
         self.endTime = self.startTime.addingTimeInterval(sleepPlan.sleepPeriod * 60 * 60)
     }
-    
+
     func toggleSleepState() {
         switch sleepState {
         case .notStarted:
@@ -82,7 +83,7 @@ class SleepManager: ObservableObject {
         }
         elapsedTime = 0.0
     }
-    
+
     func track() {
         guard sleepState != .notStarted else { return }
         let now = Date()
@@ -96,4 +97,3 @@ class SleepManager: ObservableObject {
         progress = (elapsedTime / totalTime).rounded()
     }
 }
-
