@@ -17,7 +17,7 @@ struct AuthView: View {
     
     var body: some View {
         ZStack {
-            Color("Color3") // Replace with your custom background color
+            Color("Color3") 
                 .edgesIgnoringSafeArea(.all)
             
             NavigationView {
@@ -73,7 +73,7 @@ struct AuthView: View {
                 .padding()
                 .navigationBarHidden(true)
                 .fullScreenCover(isPresented: $isUserLoggedIn) {
-                    OnboardingFlow() // Placeholder for the next view
+                    OnboardingFlow()
                 }
             }
         }

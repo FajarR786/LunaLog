@@ -13,7 +13,7 @@ struct OnboardingFlow: View {
     
     var body: some View {
         ZStack {
-            Color("Color4") // Replace with your custom background color
+            Color("Color4") 
                 .edgesIgnoringSafeArea(.all)
             
             VStack {
@@ -45,7 +45,7 @@ struct OnboardingFlow: View {
             }
             .padding()
             .fullScreenCover(isPresented: $navigateToMainDashboard) {
-                MainDashboard() // Placeholder for MainDashboard
+                MainDashboard()
             }
         }
     }

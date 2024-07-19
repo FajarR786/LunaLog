@@ -18,7 +18,7 @@ struct WaterLog: View {
         ZStack {
             Color("Color4")
                 .opacity(0.6)
-                .edgesIgnoringSafeArea(.all) // Replace "BackgroundColor" with your desired color name
+                .edgesIgnoringSafeArea(.all)
             
             VStack {
                 Text("Water Tracker")

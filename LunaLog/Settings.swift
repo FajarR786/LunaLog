@@ -74,13 +74,13 @@ struct SettingsView: View {
                 
                 Spacer()
                 
-                Image("logo") // Replace with the name of your logo image in Assets
+                Image("logo")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 200, height: 200) // Increased size
                     .padding(.bottom, 20) // Moved up
                 
-                // Decorative lines or shapes
+                // Decorative lines and shapes
                 HStack {
                     Circle()
                         .fill(Color("Color2"))

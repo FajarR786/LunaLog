@@ -14,7 +14,7 @@ struct Rewards: View {
     var body: some View {
         ZStack {
             Color("Color3")
-                .edgesIgnoringSafeArea(.all) // Ensure the background color fills the entire screen
+                .edgesIgnoringSafeArea(.all)
 
             VStack {
                 VStack {
@@ -22,7 +22,7 @@ struct Rewards: View {
                         .font(.largeTitle)
                         .fontWeight(.semibold)
                         .padding()
-                        .foregroundColor(Color("Color5")) // Ensure the text color is white
+                        .foregroundColor(Color("Color5"))
 
                     Text("Points: \(points)")
                         .font(.title)
