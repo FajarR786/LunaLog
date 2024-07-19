@@ -28,6 +28,8 @@
 		9F584B1C2C48640200C60BA2 /* Early.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F584B1B2C48640200C60BA2 /* Early.swift */; };
 		9F584B1E2C48640F00C60BA2 /* Decent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F584B1D2C48640F00C60BA2 /* Decent.swift */; };
 		9F584B202C48641F00C60BA2 /* Late.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F584B1F2C48641F00C60BA2 /* Late.swift */; };
+		9F584B982C49FD9C00C60BA2 /* ProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F584B972C49FD9C00C60BA2 /* ProgressRing.swift */; };
+		9F584B9C2C49FE1E00C60BA2 /* SleepManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F584B9B2C49FE1E00C60BA2 /* SleepManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		9F584B1B2C48640200C60BA2 /* Early.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Early.swift; sourceTree = "<group>"; };
 		9F584B1D2C48640F00C60BA2 /* Decent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decent.swift; sourceTree = "<group>"; };
 		9F584B1F2C48641F00C60BA2 /* Late.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Late.swift; sourceTree = "<group>"; };
+		9F584B972C49FD9C00C60BA2 /* ProgressRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRing.swift; sourceTree = "<group>"; };
+		9F584B9B2C49FE1E00C60BA2 /* SleepManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				887CAE5C2C477D1F007750AE /* Settings.swift */,
 				8878C5E62C4857A000D9796C /* Rewards.swift */,
 				8878C5E82C4857B100D9796C /* Progress.swift */,
+				9F584B972C49FD9C00C60BA2 /* ProgressRing.swift */,
+				9F584B9B2C49FE1E00C60BA2 /* SleepManager.swift */,
 				887CAE4F2C476FEB007750AE /* GoogleService-Info.plist */,
 				887CADF72C45A5ED007750AE /* Assets.xcassets */,
 				887CADF92C45A5ED007750AE /* Preview Content */,
@@ -196,6 +202,7 @@
 			files = (
 				887CAE5B2C4774FC007750AE /* MainDashboard.swift in Sources */,
 				887CAE592C4774D8007750AE /* OnboardingFlow.swift in Sources */,
+				9F584B982C49FD9C00C60BA2 /* ProgressRing.swift in Sources */,
 				887CAE612C477D44007750AE /* SleepLog.swift in Sources */,
 				887CAE5D2C477D1F007750AE /* Settings.swift in Sources */,
 				9F584B202C48641F00C60BA2 /* Late.swift in Sources */,
@@ -208,6 +215,7 @@
 				887CAE5F2C477D36007750AE /* WaterLog.swift in Sources */,
 				887CAE572C477279007750AE /* AppDelegate.swift in Sources */,
 				887CADF42C45A5EA007750AE /* LunaLogApp.swift in Sources */,
+				9F584B9C2C49FE1E00C60BA2 /* SleepManager.swift in Sources */,
 				8878C5E72C4857A000D9796C /* Rewards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

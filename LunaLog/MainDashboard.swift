@@ -92,7 +92,6 @@ struct MainDashboard: View {
                                 .background(Color("Color2")) // Ensure this matches a color set in Assets
                                 .cornerRadius(8)
                         }
-                        NavigationLink(destination: Progress()) {
                             Text("Progress")
                                 .font(.headline) // Smaller font size
                                 .foregroundColor(.white)
@@ -127,7 +126,6 @@ struct MainDashboard: View {
             }
         }
     }
-}
 #Preview {
     MainDashboard()
 }
